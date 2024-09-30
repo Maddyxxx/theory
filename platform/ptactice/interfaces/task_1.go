@@ -1,6 +1,5 @@
-package main
 
-import "fmt"
+
 //Задача 1
 //Что выведет код?
 
