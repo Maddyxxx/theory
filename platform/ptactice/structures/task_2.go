@@ -5,7 +5,7 @@ import "fmt"
 //1. Добавить код, который выведет тип переменной whoami
 
 func printType(whoami interface{}) {
-	fmt.Printf("%T\n", whoami)
+	// fmt.Printf("%T\n", whoami)
 }
 
 func main() {
