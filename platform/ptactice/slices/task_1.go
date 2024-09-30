@@ -1,11 +1,6 @@
 //Задача 1
 //Что выведет код?
-package main
 
-import (
-	"fmt"
-	"sort"
-)
 
 func main() {
 	v := []int{3, 4, 1, 2, 5}
