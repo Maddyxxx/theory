@@ -6,5 +6,5 @@ import (
 
 
 func main(){
-	slices.T8()
+	slices.T9()
 }
