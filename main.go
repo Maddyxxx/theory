@@ -1,10 +1,10 @@
 package main
 
 import (
-	"theory/platform/practice/slices"
+	"theory/platform/practice/parallelizm"
 )
 
 
 func main(){
-	slices.T9()
+	parallelizm.T1()
 }
