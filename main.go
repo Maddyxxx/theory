@@ -4,6 +4,7 @@ import (
 	"theory/platform/practice/slices"
 )
 
+
 func main(){
-	slices.T5()
+	slices.PrintMod()
 }
