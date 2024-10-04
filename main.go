@@ -6,5 +6,5 @@ import (
 
 
 func main(){
-	slices.PrintMod()
+	slices.T7()
 }
