@@ -5,5 +5,5 @@ import (
 )
 
 func main(){
-	slices.T4()
+	slices.T5()
 }
