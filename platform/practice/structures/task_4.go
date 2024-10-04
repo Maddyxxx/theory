@@ -1,6 +1,7 @@
 //Задача 4
 //Что выведет код и почему?
 
+package structures
 
 import "fmt"
 
@@ -16,7 +17,7 @@ func errorHandler(err error) {
 	}
 }
 
-func main() {
+func T4() {
 	var err *MyError
 	errorHandler(err) // Error: <nil>. - Переменная err не инициализирована, то есть равна nil, 
 	err = &MyError{}

@@ -1,4 +1,4 @@
-package main
+package slices
 
 import (
 	"fmt"
@@ -7,7 +7,7 @@ import (
 //Задача 3
 //Что выведется?
 
-func main() {
+func t3() {
     c := []string{"A", "B", "D", "E"}
 	b := c[1:2] // b присвается значение слайса с, b = [B]
 	fmt.Println(c) // [A B D E]

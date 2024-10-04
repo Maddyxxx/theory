@@ -1,8 +1,8 @@
 
-
+package structures
 //Задача 1
 //Что выведет код?
-
+import "fmt"
 // интерфейс - структура
 // 	указатель на объект
 //	таблица методов
@@ -24,7 +24,7 @@ func B() I {
 	return ret
 }
 
-func main() {
+func T1() {
 	a := A() // nil
 	b := B() // type impl struct{}
 	var c any

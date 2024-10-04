@@ -1,9 +1,11 @@
+package slices
 
+import "fmt"
 //Задача 2
 //1. Что выведет код?
 
 
-func main() {
+func t2() {
 	var foo []int
 	var bar []int
 

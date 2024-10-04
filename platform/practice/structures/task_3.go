@@ -1,4 +1,5 @@
 
+package structures
 
 import "fmt"
 
@@ -14,7 +15,7 @@ func printNumber(ptrToNumber interface{}) {
         }
 }
 
-func main() {
+func T3() {
         v := 10
         printNumber(&v)
         var pv *int
