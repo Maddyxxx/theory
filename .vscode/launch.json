@@ -18,6 +18,14 @@
             "mode": "auto",
             "args": [],
             "program": "c:\\Users\\sokol\\GolandProjects\\theory\\main.go"
+        },
+        {
+            "type": "go",
+            "name": "debug task_3.go",
+            "request": "launch",
+            "mode": "auto",
+            "args": [],
+            "program": "c:\\Users\\sokol\\GolandProjects\\theory\\platform\\practice\\parallelizm\\task_3.go"
         }
     ]
 }
