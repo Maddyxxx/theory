@@ -163,7 +163,7 @@ func main() {
 ===========================================================
 
 func main() {
-  m := make(char string, 3)
+  m := make(chan string, 3)
   cnt := 5
   for i := 0; i < cnt; i++ {
     go func() {
