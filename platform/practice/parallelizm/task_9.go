@@ -2,7 +2,6 @@ package parallelizm
 
 import (
 	"fmt"
-	//"sync"
 )
 //Задача 9
 //1. Что выведется и как исправить?

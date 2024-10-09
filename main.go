@@ -6,5 +6,5 @@ import (
 
 
 func main(){
-	parallelizm.T9()
+	parallelizm.T19()
 }
