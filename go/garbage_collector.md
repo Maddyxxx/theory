@@ -1,0 +1,1 @@
+алгоритм mark and sweep
