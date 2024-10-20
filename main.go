@@ -1,10 +1,10 @@
 package main
 
 import (
-	"theory/platform/practice/parallelizm"
+	"theory/platform/practice/ozon"
 )
 
 
 func main(){
-	parallelizm.T19()
+	ozon.T1()
 }
