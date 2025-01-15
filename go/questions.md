@@ -626,6 +626,36 @@ recover
 свитч работает с данными, а селект с каналами
 свитч гарантирует порядок сравнений, селект работает случайно
 
+### Что такое switch type?
+// Golang program to illustrate the
+// concept of type switches
+var value interface{} = "GeeksforGeeks"
+  
+  // type switch to find 
+  // out interface{} type
+  switch t := value.(type){
+  
+    case int64:
+
+      // if type is an integer
+      fmt.Println("Type is an integer:", t)
+
+    case string:
+
+      // if type is a string
+      fmt.Println("Type is a string:", t)
+
+    case nil:
+
+      // if type is nil (zero-value)
+      fmt.Println("Type is nil.")
+    default:
+
+      // if type is other than above
+      fmt.Println("Type is unknown!")
+  }
+
+
 # ООП
 ==============================
 
