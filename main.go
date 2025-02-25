@@ -1,10 +1,10 @@
 package main
 
 import (
-	"theory/platform/practice/ozon"
+	"theory/platform/practice/algo"
 )
 
 
 func main(){
-	ozon.T1()
+	algo.TestUnicNum()
 }
