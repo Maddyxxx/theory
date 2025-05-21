@@ -3,7 +3,6 @@ package parallelizm
 import (
 	"fmt"
 	"sync"
-
 )
 
 //Задача 1
@@ -12,13 +11,13 @@ import (
 // выведет ошибку, deadlock
 
 func T1() {
-	ch := make(chan int, 3) // канал дб буферезированный
+	ch := make(chan int, 3) // канал дб буферизированный
 	wg := sync.WaitGroup{}
-	
+
 	for i := 0; i < 3; i++ {
-		wg.Add(1) // в цикле 
+		wg.Add(1) // в цикле
 		go func(v int) {
-			defer wg.Done()	
+			defer wg.Done()
 			ch <- v * v
 		}(i)
 	}

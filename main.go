@@ -1,10 +1,9 @@
 package main
 
 import (
-	"theory/platform/practice/algo"
+	"theory/platform/practice/tasks/WB"
 )
 
-
-func main(){
-	algo.TestUnicNum()
+func main() {
+	WB.T1()
 }
