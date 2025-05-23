@@ -30,19 +30,18 @@ func rangeFreePorts(min int, max int, busy []int) [][]int {
 	}
 	if min <= max {
 		if max == busy[len(busy)-1] {
-			max = min
+			rangePorts = append(rangePorts, []int{min, min})
+		} else {
+			rangePorts = append(rangePorts, []int{min, max})
 		}
-		ports := []int{min, min}
-
-		rangePorts = append(rangePorts, ports)
 	}
 	return rangePorts
 }
 
 func T1() {
 	min_ := 20001
-	max_ := 20003
-	busy := []int{20001, 20002, 20003, 20005}
+	max_ := 20005
+	busy := []int{20001, 20002, 20003, 20004}
 	ports := rangeFreePorts(min_, max_, busy)
 	fmt.Println(ports)
 
